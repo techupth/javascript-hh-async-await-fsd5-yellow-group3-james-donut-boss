@@ -33,3 +33,7 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+function result(resolve){
+  console.log(resolve);
+};
+getJohnProfile().then(result).then(getJohnOrders).then(result);
