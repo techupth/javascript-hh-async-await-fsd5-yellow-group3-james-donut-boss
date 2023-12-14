@@ -1,5 +1,4 @@
 //Exercise #1
-
 let getJohnProfile = () => {
   return new Promise(function (resolve) {
     setTimeout(
@@ -13,4 +12,9 @@ let getJohnProfile = () => {
     );
   });
 };
+
 // Start coding here
+function result(data) {
+  console.log (data)
+}
+getJohnProfile().then(result)
